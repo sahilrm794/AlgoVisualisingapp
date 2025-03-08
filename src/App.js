@@ -8,7 +8,7 @@ import {
   Route,  // Importing Route component
   Routes  // Importing Routes component for defining routes
 } from "react-router-dom";  // Importing React Router for navigation
-import Home from './Components/Home';  // Importing the Home component
+import Home from './Components/Home'; 
 
 function App() {
   return (
