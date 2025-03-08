@@ -1,3 +1,4 @@
+// This is for graph
 import React, { Component } from 'react'
 import Xarrow from 'react-xarrows';
 class QElement {

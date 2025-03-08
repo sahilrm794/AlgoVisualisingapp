@@ -1,3 +1,4 @@
+// This is for sorting
 import React, { Component } from 'react'
 import { translateX } from 'react-animations/lib/utils';
 export default class Sorting extends Component {

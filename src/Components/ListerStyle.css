@@ -1,27 +1,30 @@
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 50px;
-    grid-auto-rows: 100px;
-    grid-template-areas:
-      "a a a a b b b b"
-      "a a a a b b b b"
-      "c c c c d d d d"
-      "c c c c d d d d";
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-  }
-  .item1 {
-    grid-area: a;
-  }
-  .item2 {
-    grid-area: b;
-  }
-  .item3 {
-    grid-area: c;
-  }
-  .item4 {
-    grid-area: d;
-  }
-  
+  display: grid;  /* Use CSS Grid Layout */
+  grid-template-columns: repeat(8, 1fr);  /* Create 8 equal columns */
+  gap: 50px;  /* Set a gap of 50px between grid items */
+  grid-auto-rows: 100px;  /* Set the height of rows to 100px */
+  grid-template-areas:
+    "a a a a b b b b"  /* First row has areas 'a' and 'b' */
+    "a a a a b b b b"  /* Second row has areas 'a' and 'b' */
+    "c c c c d d d d"  /* Third row has areas 'c' and 'd' */
+    "c c c c d d d d";  /* Fourth row has areas 'c' and 'd' */
+  align-items: center;  /* Align items vertically at the center */
+  justify-content: center;  /* Align the grid itself horizontally at the center */
+  justify-items: center;  /* Align items horizontally at the center */
+}
+
+.item1 {
+  grid-area: a;  /* Item 1 occupies the 'a' area */
+}
+
+.item2 {
+  grid-area: b;  /* Item 2 occupies the 'b' area */
+}
+
+.item3 {
+  grid-area: c;  /* Item 3 occupies the 'c' area */
+}
+
+.item4 {
+  grid-area: d;  /* Item 4 occupies the 'd' area */
+}
